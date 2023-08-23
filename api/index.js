@@ -34,7 +34,7 @@ app.use("/api/users", usersRoute);
 app.use("/api/hotels", hotelsRoute);
 app.use("/api/rooms", roomsRoute);
 
-// app.listen(8800, () => {
-//   connect()
-//   console.log("Connected to backend");
-// })
+app.listen(8800, () => {
+  connect()
+  console.log("Connected to backend");
+})
